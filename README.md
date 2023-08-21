@@ -4,33 +4,33 @@ Você foi contratado para desenvolver um sistema de gerenciamento de livros para
 
 ## Requisitos
 
-- [X] Crie as classes `Livro`, `Autor` e `Categoria`, cada uma com os campos relevantes para sua descrição. Certifique-se de incluir construtores, getters e setters.
+- [X] Crie as classes `biblioteca.Livro`, `biblioteca.Autor` e `biblioteca.Categoria`, cada uma com os campos relevantes para sua descrição. Certifique-se de incluir construtores, getters e setters.
 
-  **Classe `Livro`:**
+  **Classe `biblioteca.Livro`:**
   - Título (String): O título do livro.
-  - Autor (Autor): O autor do livro.
-  - Categoria (Categoria): A categoria à qual o livro pertence.
+  - biblioteca.Autor (biblioteca.Autor): O autor do livro.
+  - biblioteca.Categoria (biblioteca.Categoria): A categoria à qual o livro pertence.
   - Ano de Publicação (int): O ano em que o livro foi publicado.
   - ISBN (String): O número de identificação único do livro.
   - Sinopse (String): Uma breve descrição do enredo do livro.
 
-  **Classe `Autor`:**
+  **Classe `biblioteca.Autor`:**
   - Nome (String): O nome do autor.
   - Data de Nascimento (String ou LocalDate): A data de nascimento do autor.
   - País de Origem (String): O país de origem do autor.
   - Bibliografia (String): Uma lista de obras notáveis escritas pelo autor.
 
-  **Classe `Categoria`:**
+  **Classe `biblioteca.Categoria`:**
   - Nome (String): O nome da categoria.
   - Descrição (String): Uma breve descrição da categoria.
 
-- [ ] Crie uma classe `Biblioteca` que conterá coleções para armazenar os objetos de livros, autores e categorias.
+- [ ] Crie uma classe `biblioteca.Biblioteca` que conterá coleções para armazenar os objetos de livros, autores e categorias.
 
-- [ ] Implemente os seguintes métodos na classe `Biblioteca`:
-  - [ ] `adicionarLivro(Livro livro)`: Adiciona um livro à coleção.
+- [ ] Implemente os seguintes métodos na classe `biblioteca.Biblioteca`:
+  - [ ] `adicionarLivro(biblioteca.Livro livro)`: Adiciona um livro à coleção.
   - [ ] `listarLivros()`: Lista todos os livros da biblioteca.
-  - [ ] `listarLivrosPorAutor(Autor autor)`: Lista os livros escritos por um autor específico.
-  - [ ] `listarLivrosPorCategoria(Categoria categoria)`: Lista os livros de uma categoria específica.
+  - [ ] `listarLivrosPorAutor(biblioteca.Autor autor)`: Lista os livros escritos por um autor específico.
+  - [ ] `listarLivrosPorCategoria(biblioteca.Categoria categoria)`: Lista os livros de uma categoria específica.
   - [ ] `buscarLivroPorTitulo(String titulo)`: Retorna um livro com o título correspondente, ou null se não for encontrado.
 
 ## Instruções

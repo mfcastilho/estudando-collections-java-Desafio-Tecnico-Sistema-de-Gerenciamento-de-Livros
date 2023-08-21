@@ -1,3 +1,5 @@
+package biblioteca;
+
 public class Categoria {
     private String nome;
     private String descricao;
