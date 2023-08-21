@@ -4,7 +4,7 @@ Você foi contratado para desenvolver um sistema de gerenciamento de livros para
 
 ## Requisitos
 
-- [ ] Crie as classes `Livro`, `Autor` e `Categoria`, cada uma com os campos relevantes para sua descrição. Certifique-se de incluir construtores, getters e setters.
+- [X] Crie as classes `Livro`, `Autor` e `Categoria`, cada uma com os campos relevantes para sua descrição. Certifique-se de incluir construtores, getters e setters.
 
   **Classe `Livro`:**
   - Título (String): O título do livro.
