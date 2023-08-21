@@ -46,4 +46,14 @@ public class Autor {
     public void setBibliografia(String bibliografia) {
         this.bibliografia = bibliografia;
     }
+
+    @Override
+    public String toString() {
+        return "Autor{" +
+                "nome='" + nome + '\'' +
+                ", dataDeNascimento=" + dataDeNascimento +
+                ", paisDeOrigem='" + paisDeOrigem + '\'' +
+                ", bibliografia='" + bibliografia + '\'' +
+                '}';
+    }
 }

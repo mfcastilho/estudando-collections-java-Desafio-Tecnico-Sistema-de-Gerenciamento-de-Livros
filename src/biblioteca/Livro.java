@@ -2,14 +2,14 @@ package biblioteca;
 
 public class Livro {
     private String titulo;
-    private String autor;
+    private Autor autor;
 
     private Categoria categoria;
     private int anoDePublicacao;
     private String isbn;
     private String sinopse;
 
-    public Livro(String titulo, String autor, Categoria categoria, int anoDePublicacao, String isbn, String sinopse){
+    public Livro(String titulo, Autor autor, Categoria categoria, int anoDePublicacao, String isbn, String sinopse){
         this.titulo = titulo;
         this.autor = autor;
         this.categoria = categoria;
@@ -26,11 +26,11 @@ public class Livro {
         this.titulo = titulo;
     }
 
-    public String getAutor() {
+    public Autor getAutor() {
         return autor;
     }
 
-    public void setAutor(String autor) {
+    public void setAutor(Autor autor) {
         this.autor = autor;
     }
 
