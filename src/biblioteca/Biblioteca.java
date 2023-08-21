@@ -11,5 +11,12 @@ public class Biblioteca {
         livros.add(livro);
     }
 
+    public void listarLivros(){
+        System.out.println("Lista de Livros da Biblioteca:");
+        for(Livro livro: livros){
+            System.out.println(livro.toString());
+        }
+    }
+
 
 }
