@@ -29,11 +29,12 @@ Você foi contratado para desenvolver um sistema de gerenciamento de livros para
 - [ ] Implemente os seguintes métodos na classe `Biblioteca`:
   - [x] `adicionarLivro(Livro livro)`: Adiciona um livro à coleção.
   - [x] `listarLivros()`: Lista todos os livros da biblioteca.
-  - [ ] `listarLivrosPorAutor(Autor autor)`: Lista os livros escritos por um autor específico.
+  - [ ] `listarLivrosPorAutor(String nomeAutor)`: Lista os livros escritos por um autor específico.
   - [ ] `listarLivrosPorCategoria(Categoria categoria)`: Lista os livros de uma categoria específica.
   - [ ] `buscarLivroPorTitulo(String titulo)`: Retorna um livro com o título correspondente, ou null se não for encontrado.
   - [ ] `listarAutoresPorOrdemAlfabetica()`: Lista os autores por ordem alfabética de seus nomes.
   - [ ] `listarLivrosPorOrdemDeDataDeCadastramento()`: Lista os livros por ordem de data de cadastramento.
+  - [ ] `autorEstaCadastrado(String nomeAutor)`: Verifica se um autor está cadastrado na biblioteca.
 
 ## Instruções
 
