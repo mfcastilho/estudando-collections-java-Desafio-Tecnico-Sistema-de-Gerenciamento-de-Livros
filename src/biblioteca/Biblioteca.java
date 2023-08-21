@@ -7,7 +7,9 @@ public class Biblioteca {
     private List<Autor> autores;
     private List<Categoria> categorias;
 
-    
+    public void adicionarLivro(Livro livro){
+        livros.add(livro);
+    }
 
 
 }

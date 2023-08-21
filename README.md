@@ -24,10 +24,10 @@ Você foi contratado para desenvolver um sistema de gerenciamento de livros para
   - Nome (String): O nome da categoria.
   - Descrição (String): Uma breve descrição da categoria.
 
-- [ ] Crie uma classe `biblioteca.Biblioteca` que conterá coleções para armazenar os objetos de livros, autores e categorias.
+- [X] Crie uma classe `biblioteca.Biblioteca` que conterá coleções para armazenar os objetos de livros, autores e categorias.
 
 - [ ] Implemente os seguintes métodos na classe `biblioteca.Biblioteca`:
-  - [ ] `adicionarLivro(biblioteca.Livro livro)`: Adiciona um livro à coleção.
+  - [X] `adicionarLivro(biblioteca.Livro livro)`: Adiciona um livro à coleção.
   - [ ] `listarLivros()`: Lista todos os livros da biblioteca.
   - [ ] `listarLivrosPorAutor(biblioteca.Autor autor)`: Lista os livros escritos por um autor específico.
   - [ ] `listarLivrosPorCategoria(biblioteca.Categoria categoria)`: Lista os livros de uma categoria específica.
