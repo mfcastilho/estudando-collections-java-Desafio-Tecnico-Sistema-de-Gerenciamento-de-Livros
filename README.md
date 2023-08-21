@@ -6,6 +6,24 @@ Você foi contratado para desenvolver um sistema de gerenciamento de livros para
 
 - [ ] Crie as classes `Livro`, `Autor` e `Categoria`, cada uma com os campos relevantes para sua descrição. Certifique-se de incluir construtores, getters e setters.
 
+  **Classe `Livro`:**
+  - Título (String): O título do livro.
+  - Autor (Autor): O autor do livro.
+  - Categoria (Categoria): A categoria à qual o livro pertence.
+  - Ano de Publicação (int): O ano em que o livro foi publicado.
+  - ISBN (String): O número de identificação único do livro.
+  - Sinopse (String): Uma breve descrição do enredo do livro.
+
+  **Classe `Autor`:**
+  - Nome (String): O nome do autor.
+  - Data de Nascimento (String ou LocalDate): A data de nascimento do autor.
+  - País de Origem (String): O país de origem do autor.
+  - Bibliografia (String): Uma lista de obras notáveis escritas pelo autor.
+
+  **Classe `Categoria`:**
+  - Nome (String): O nome da categoria.
+  - Descrição (String): Uma breve descrição da categoria.
+
 - [ ] Crie uma classe `Biblioteca` que conterá coleções para armazenar os objetos de livros, autores e categorias.
 
 - [ ] Implemente os seguintes métodos na classe `Biblioteca`:
