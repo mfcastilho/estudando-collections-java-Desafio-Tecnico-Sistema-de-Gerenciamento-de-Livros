@@ -65,4 +65,16 @@ public class Livro {
     public void setSinopse(String sinopse) {
         this.sinopse = sinopse;
     }
+
+    @Override
+    public String toString() {
+        return "Livro{" +
+                "titulo='" + titulo + '\'' +
+                ", autor='" + autor + '\'' +
+                ", categoria=" + categoria +
+                ", anoDePublicacao=" + anoDePublicacao +
+                ", isbn='" + isbn + '\'' +
+                ", sinopse='" + sinopse + '\'' +
+                '}';
+    }
 }
