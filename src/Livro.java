@@ -1,13 +1,16 @@
 public class Livro {
     private String titulo;
     private String autor;
+
+    private Categoria categoria;
     private int anoDePublicacao;
     private String isbn;
     private String sinopse;
 
-    public Livro(String titulo, String autor, int anoDePublicacao, String isbn, String sinopse){
+    public Livro(String titulo, String autor, Categoria categoria, int anoDePublicacao, String isbn, String sinopse){
         this.titulo = titulo;
         this.autor = autor;
+        this.categoria = categoria;
         this.anoDePublicacao = anoDePublicacao;
         this.isbn = isbn;
         this.sinopse = sinopse;
@@ -27,6 +30,14 @@ public class Livro {
 
     public void setAutor(String autor) {
         this.autor = autor;
+    }
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
     }
 
     public int getAnoDePublicacao() {
