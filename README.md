@@ -35,11 +35,11 @@ Você foi contratado para desenvolver um sistema de gerenciamento de livros para
 
 ## Instruções
 
-- [ ] Crie um pacote chamado `biblioteca` para organizar suas classes.
+- [X] Crie um pacote chamado `biblioteca` para organizar suas classes.
 
 - [ ] Utilize as classes de coleções apropriadas do Java, como `ArrayList`, `HashMap` ou outras, para armazenar os objetos.
 
-- [ ] Crie um programa principal que demonstre o funcionamento do sistema. Nele, crie instâncias de livros, autores e categorias, adicione os livros à biblioteca e teste os diferentes métodos de busca e listagem.
+- [X] Crie um programa principal que demonstre o funcionamento do sistema. Nele, crie instâncias de livros, autores e categorias, adicione os livros à biblioteca e teste os diferentes métodos de busca e listagem.
 
 - [ ] Certifique-se de que o código seja legível e bem estruturado. Utilize comentários para explicar partes importantes do código.
 
