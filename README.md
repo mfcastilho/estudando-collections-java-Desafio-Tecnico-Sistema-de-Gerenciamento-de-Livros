@@ -20,6 +20,7 @@ Você foi contratado para desenvolver um sistema de gerenciamento de livros para
   - País de Origem (String): O país de origem do autor.
   - Bibliografia (String): Uma lista de obras notáveis escritas pelo autor.
 
+
   **Classe `Categoria`:**
   - Nome (String): O nome da categoria.
   - Descrição (String): Uma breve descrição da categoria.
